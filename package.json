@@ -1,22 +1,25 @@
 {
-  "name": "hoki-poki",
-  "version": "0.0.1",
-  "description": "Official website of Hoki Poki HR",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ra-bos/Hoki-Poki.git"
-  },
-  "author": "Ricardo Bos",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ra-bos/Hoki-Poki/issues"
-  },
-  "homepage": "https://github.com/ra-bos/Hoki-Poki#readme",
-  "dependencies": {
-    "nodemon": "^1.18.3"
-  }
+    "name": "hoki-poki",
+    "version": "0.0.1",
+    "description": "Official website of Hoki Poki HR",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ra-bos/Hoki-Poki.git"
+    },
+    "author": "Ricardo Bos",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ra-bos/Hoki-Poki/issues"
+    },
+    "homepage": "https://github.com/ra-bos/Hoki-Poki#readme",
+    "dependencies": {
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.3"
+    }
 }
