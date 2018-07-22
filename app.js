@@ -17,4 +17,10 @@ app.get("/product", function(req, res) {
     res.render("product");
 });
 
+app.get("/contact", function(req, res) {
+    res.render("contact");
+});
+
+
+
 app.listen(3000);
