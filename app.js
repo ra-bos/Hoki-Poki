@@ -9,4 +9,8 @@ app.get("/", function(req, res) {
     res.render("index");
 });
 
+app.get("/product", function(req, res) {
+    res.render("product");
+});
+
 app.listen(3000);
