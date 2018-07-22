@@ -9,6 +9,10 @@ app.get("/", function(req, res) {
     res.render("index");
 });
 
+app.get("/category", function(req, res) {
+    res.render("category");
+});
+
 app.get("/product", function(req, res) {
     res.render("product");
 });
