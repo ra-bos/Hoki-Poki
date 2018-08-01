@@ -10,21 +10,20 @@
                 </small>
             </div>
             <form>
-                <div class="form-group row">
-                    <label for="username" class="col-sm-2 col-form-label">Username</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="username" value="Ricardo" style="width: 100px;">
-                    </div>
+                <div class="form-group">
+                    <label for="inputUsername">Username</label>
+                    <input type="email" class="form-control" id="inputUsername" placeholder="Enter username">
                 </div>
-                <div class="form-group row">
-                    <label for="password " class="col-sm-2 col-form-label ">Password</label>
-                    <div class="col-sm-10 ">
-                        <input type="password " class="form-control " id="password " placeholder="Password" style="width: 250px">
-                    </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                 </div>
-                <button type="submit " class="btn btn-primary ">Submit</button>
+                <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Login</button>
             </form>
         </div>
+    </div>
+    <div class="copyright">
+        <p>A Website by RICARDO BOS</p>
     </div>
 
     <% include partials/footer %>
