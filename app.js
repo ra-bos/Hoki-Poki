@@ -4,7 +4,7 @@ var app = express();
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
-
+// General Routes
 app.get("/", function(req, res) {
     res.render("index");
 });
@@ -19,6 +19,11 @@ app.get("/product", function(req, res) {
 
 app.get("/contact", function(req, res) {
     res.render("contact");
+});
+
+// Admin routes
+app.get("/admin", function(req, res) {
+    res.render("admin");
 });
 
 
