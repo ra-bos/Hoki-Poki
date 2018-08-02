@@ -26,6 +26,10 @@ app.get("/admin", function(req, res) {
     res.render("admin");
 });
 
+app.get("/admin/secure", function(req, res) {
+    res.render("admin/secure");
+});
+
 
 
 app.listen(3000);
